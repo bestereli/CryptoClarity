@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Real-World Use Cases – CryptoClarity</title>
+  <meta name="description" content="Discover how cryptocurrency is used in payments, remittances, gaming, smart contracts, DeFi, and decentralized apps beyond trading." />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+<header>
+  <div class="nav-inner">
+    <a href="index.html" class="nav-logo">
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+      CryptoClarity
+    </a>
+    <nav class="nav-links">
+      <a href="what-is-crypto.html">What is Crypto?</a>
+      <a href="wallets-and-keys.html">Wallets &amp; Keys</a>
+      <a href="safety-and-scams.html">Safety &amp; Scams</a>
+      <a href="research-projects.html">Researching</a>
+      <a href="real-world-uses.html" class="active">Real World</a>
+      <a href="tools-and-resources.html">Tools</a>
+      <a href="contact.html" class="btn-contact">Contact</a>
+    </nav>
+    <button class="hamburger" aria-label="Toggle menu" onclick="document.getElementById('mobileNav').classList.toggle('open')">
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+    </button>
+  </div>
+  <nav class="mobile-nav" id="mobileNav">
+    <a href="index.html">Home</a>
+    <a href="what-is-crypto.html">What is Crypto?</a>
+    <a href="wallets-and-keys.html">Wallets &amp; Keys</a>
+    <a href="safety-and-scams.html">Safety &amp; Scams</a>
+    <a href="research-projects.html">Researching</a>
+    <a href="real-world-uses.html" class="active">Real World</a>
+    <a href="tools-and-resources.html">Tools</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+</header>
+
+<main>
+  <div class="page-content">
+
+    <div style="display:flex;align-items:center;gap:0.75rem;margin-bottom:0.75rem;">
+      <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="none" stroke="var(--primary)" stroke-width="2" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+      <h1>Real-World Use Cases</h1>
+    </div>
+    <p style="font-size:1.1rem;color:var(--muted);margin-bottom:2rem;">Crypto is more than internet money. It's a new infrastructure for the digital world.</p>
+
+    <p style="color:rgba(232,224,240,0.9);line-height:1.8;margin-bottom:2.5rem;">
+      The media often focuses solely on the price of Bitcoin going up or down. But beneath the speculation, developers are building tools that solve real problems.
+      Here are the main ways blockchain technology is being put to work today.
+    </p>
+
+    <!-- Use Cases -->
+    <section style="display:flex;flex-direction:column;gap:1.5rem;margin-bottom:2.5rem;">
+
+      <div class="use-card">
+        <div class="use-card-label">
+          <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="none" stroke="var(--primary)" stroke-width="1.5" viewBox="0 0 24 24"><polyline points="17 1 21 5 17 9"/><path d="M3 11V9a4 4 0 0 1 4-4h14"/><polyline points="7 23 3 19 7 15"/><path d="M21 13v2a4 4 0 0 1-4 4H3"/></svg>
+          <h3>Cross-Border Payments (Remittances)</h3>
+        </div>
+        <div class="use-card-body">
+          <p>Sending money internationally through traditional banks is slow (taking days) and expensive (fees of 5–10%). Crypto allows people to send value across the globe in seconds for pennies, bypassing all middlemen.</p>
+          <div class="use-card-example">
+            <span>Real Example:</span>
+            "A worker in the US sending money to family in El Salvador instantly using stablecoins, with no bank fees."
+          </div>
+        </div>
+      </div>
+
+      <div class="use-card">
+        <div class="use-card-label">
+          <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="none" stroke="var(--secondary)" stroke-width="1.5" viewBox="0 0 24 24"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+          <h3>Smart Contracts</h3>
+        </div>
+        <div class="use-card-body">
+          <p>Self-executing contracts where the terms of an agreement are written directly into code. They automatically run when conditions are met, removing the need for lawyers, banks, or escrow agents to be involved.</p>
+          <div class="use-card-example">
+            <span>Real Example:</span>
+            "Flight insurance that automatically pays out to your wallet if a connected database confirms your flight was delayed — no claims process needed."
+          </div>
+        </div>
+      </div>
+
+      <div class="use-card">
+        <div class="use-card-label">
+          <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="none" stroke="var(--accent)" stroke-width="1.5" viewBox="0 0 24 24"><line x1="12" y1="1" x2="12" y2="23"/><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg>
+          <h3>Decentralized Finance (DeFi)</h3>
+        </div>
+        <div class="use-card-body">
+          <p>Traditional financial tools — lending, borrowing, earning interest — rebuilt on the blockchain. Anyone with an internet connection can access these services without needing a bank account or passing a credit check.</p>
+          <div class="use-card-example">
+            <span>Real Example:</span>
+            "Earning yield on digital dollars (stablecoins) by lending them to a protocol, directly peer-to-peer, with no bank in the middle."
+          </div>
+        </div>
+      </div>
+
+      <div class="use-card">
+        <div class="use-card-label">
+          <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="none" stroke="var(--destructive)" stroke-width="1.5" viewBox="0 0 24 24"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg>
+          <h3>Digital Ownership (NFTs &amp; Gaming)</h3>
+        </div>
+        <div class="use-card-body">
+          <p>Non-Fungible Tokens (NFTs) prove ownership of unique digital items. In gaming, this means players can truly own their in-game assets — swords, skins, land — and sell them freely, rather than the game company owning everything.</p>
+          <div class="use-card-example">
+            <span>Real Example:</span>
+            "Buying a digital art piece directly from an artist, or earning a rare item in a game that you can sell for real value on an open marketplace."
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+    <div style="display:flex;gap:1rem;margin-top:3rem;">
+      <a href="tools-and-resources.html" class="btn btn-primary">Next: Tools &amp; Resources &rarr;</a>
+      <a href="research-projects.html" class="btn btn-outline">&larr; How to Research</a>
+    </div>
+
+  </div>
+</main>
+
+<footer>
+  <div class="footer-inner">
+    <div class="footer-brand">
+      <a href="index.html" class="nav-logo" style="margin-bottom:1rem;display:inline-flex;">
+        <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+        CryptoClarity
+      </a>
+      <p>A trusted guide for curious beginners navigating the world of cryptocurrency, blockchain, and digital asset safety.</p>
+    </div>
+    <div class="footer-col">
+      <h4>Learn</h4>
+      <ul>
+        <li><a href="what-is-crypto.html">What is Crypto?</a></li>
+        <li><a href="wallets-and-keys.html">Wallets &amp; Keys</a></li>
+        <li><a href="safety-and-scams.html">Safety &amp; Scams</a></li>
+        <li><a href="research-projects.html">How to Research</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h4>Resources</h4>
+      <ul>
+        <li><a href="real-world-uses.html">Real-World Uses</a></li>
+        <li><a href="tools-and-resources.html">Tools &amp; Links</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer-disclaimer">
+    <div class="disclaimer-box">
+      <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"/><line x1="12" y1="9" x2="12" y2="13"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg>
+      <span><strong>Disclaimer:</strong> CryptoClarity is for educational purposes only. Nothing on this site constitutes financial advice.</span>
+    </div>
+    <p class="footer-copyright">&copy; 2025 CryptoClarity. All rights reserved.</p>
+  </div>
+</footer>
+
+</body>
+</html>
